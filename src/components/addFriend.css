@@ -1,0 +1,67 @@
+.add-friend {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  margin-block: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 3px;
+  background-color: rgba(255, 160, 122, 0.499);
+}
+
+.form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-input input {
+  width: 60%;
+  border-radius: 1rem;
+  border-color: white;
+}
+
+.form-input label {
+  width: 40%;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.form-btn {
+  align-self: flex-end;
+  width: 60%;
+  background-color: rgb(255, 184, 3);
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.4rem;
+  font-weight: 700;
+  border: 1px solid goldenrod;
+}
+
+.form-btn:hover {
+  transform: translateY(-1.5px);
+  background-color: gold;
+}
+
+@media (max-width: 600px) {
+  .add-friend {
+    width: 90%;
+    height: 100%;
+    gap: 1rem;
+  }
+}

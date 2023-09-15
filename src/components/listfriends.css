@@ -1,0 +1,44 @@
+.list-friends {
+  border: 1px solid whitesmoke;
+  width: 50%;
+  max-height: 30rem;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  padding: 0.9rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  box-shadow: 0 1px 2px gray;
+  background-color: rgba(173, 216, 230, 0.362);
+  overflow-y: scroll;
+  overscroll-behavior-y: contain;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.add-btn {
+  align-self: flex-end;
+  margin-right: 2rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: rgb(255, 184, 3);
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  font-weight: 700;
+}
+
+.add-btn:hover {
+  transform: translateY(-2px);
+  background-color: gold;
+}
+
+@media (max-width: 600px) {
+  .list-friends {
+    width: 90%;
+    height: 100%;
+  }
+}

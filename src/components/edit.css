@@ -1,0 +1,27 @@
+.edit {
+  width: 45%;
+  padding: 1rem;
+  height: auto;
+  position: absolute;
+  margin-top: 15rem;
+  background-color: rgb(72, 147, 233);
+  border-radius: 2rem;
+}
+
+.edit-image {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.edit-image select {
+  width: 55%;
+}
+
+@media (max-width: 600px) {
+  .edit {
+    width: 80%;
+  }
+}

@@ -1,0 +1,66 @@
+.message {
+  margin-block: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 42%;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 148, 9, 0.3);
+}
+
+.split-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+section {
+  margin-block: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+input {
+  width: 45%;
+  border-radius: 1rem;
+  border-color: white;
+}
+
+select {
+  width: 45%;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.3rem 0.4rem;
+  background-color: lightgoldenrodyellow;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+label {
+  width: 50%;
+  font-weight: 600;
+  font-size: 0.75rem;
+  justify-self: flex-start;
+}
+
+.form-btn {
+  margin-block: 0.3rem;
+  align-self: flex-end;
+}
+
+@media (max-width: 600px) {
+  .message {
+    width: 80%;
+    height: 100%;
+  }
+}
