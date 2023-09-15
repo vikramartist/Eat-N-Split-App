@@ -42,7 +42,7 @@ export default function App() {
   const [editedFriend, setEditedFriend] = useState(null);
 
   useEffect(() => {
-    localStorage.setItem("datas", JSON.stringify(initialData));
+    localStorage.setItem("datas", JSON.stringify(datas));
   }, [datas]);
 
   const handleAddFriend = (friend) => {
