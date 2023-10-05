@@ -107,7 +107,11 @@ export default function App() {
           update={editFriend}
         />
         {selectedFriend && (
-          <SplitBill data={selectedFriend} onSplitBill={handleSplitBill} />
+          <SplitBill
+            key={selectedFriend.id}
+            data={selectedFriend}
+            onSplitBill={handleSplitBill}
+          />
         )}
       </div>
     </div>
